@@ -1138,6 +1138,21 @@
         grid-template-columns: 1fr
       }
 
+      /* inline two-column grids (heritage, features, etc.) collapse on mobile */
+      .heritage-grid {
+        grid-template-columns: 1fr !important;
+        gap: 36px !important
+      }
+
+      .heritage-grid .ph {
+        max-height: 380px
+      }
+
+      .heritage-grid .no {
+        bottom: -20px;
+        font-size: 3.6rem
+      }
+
       .show-item .no {
         bottom: -20px;
         font-size: 3.6rem
