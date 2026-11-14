@@ -1222,6 +1222,24 @@
       color: var(--bronze)
     }
 
+    @media(max-width:860px) {
+      .srow {
+        grid-template-columns: 48px 1fr;
+        gap: 14px;
+        padding-block: 18px
+      }
+
+      .srow .idx {
+        font-size: 1.4rem
+      }
+
+      .srow .cnt {
+        grid-column: 2;
+        justify-self: start;
+        margin-top: 10px
+      }
+    }
+
     /* ============ STATS ============ */
     .stats {
       display: grid;
